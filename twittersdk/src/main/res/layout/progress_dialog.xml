@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by Mina Mikhail on 16/04/2019
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  */
+  -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_rounded_white"
+    android:elevation="4dp"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:targetApi="lollipop"
+    >
+
+  <ProgressBar
+      android:id="@+id/loading"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      />
+
+</FrameLayout>

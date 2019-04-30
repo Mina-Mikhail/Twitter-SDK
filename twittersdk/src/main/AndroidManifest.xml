@@ -1,0 +1,18 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mina_mikhail.twitter_sdk">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+  <application>
+    <activity
+        android:name=".TwitterSignInActivity"
+        android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:excludeFromRecents="true"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:windowSoftInputMode="adjustResize"/>
+
+  </application>
+
+</manifest>
