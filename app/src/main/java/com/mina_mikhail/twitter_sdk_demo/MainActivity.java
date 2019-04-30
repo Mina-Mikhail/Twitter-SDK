@@ -15,8 +15,8 @@ public class MainActivity
     extends AppCompatActivity
     implements TwitterResponse {
 
-  private String customerKey = "";
-  private String customerSecret = "";
+  private String customerKey = "YOUR_API_KEY";
+  private String customerSecret = "YOUR_API_SECRET_KEY";
 
   private View userData;
   private ImageView userPhoto;
